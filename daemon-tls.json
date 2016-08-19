@@ -1,5 +1,5 @@
 {
-  "hosts:": ["tcp://0.0.0.0:2376", "unix:///var/run/docker.sock"],
+  "hosts": ["tcp://0.0.0.0:2376", "unix:///var/run/docker.sock"],
   "tls": true,
   "tlsverify": true,
   "tlscacert": "/var/lib/docker/certs/ca.crt",
