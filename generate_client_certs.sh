@@ -23,5 +23,5 @@ grep "$str" /etc/profile
 if [ $? = 0 ] ; then
   exit 0
 fi
-sudo echo "$str" >> /etc/profile
+sudo bash -c "echo $str >> /etc/profile"
 . /etc/profile
