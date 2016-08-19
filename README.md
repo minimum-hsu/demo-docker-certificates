@@ -11,7 +11,7 @@
 # Demo 2 - Use port 2376 with TLS
 
 1. Execute generate_certs.sh on server  
-   ```bash generate_certs.sh```
+   ```bash generate_certs.sh YOUR_PUBLIC_IP```
 
 2. Execute generate_client_certs.sh on client  
    ```bash generate_client_certs.sh```
