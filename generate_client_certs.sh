@@ -1,10 +1,11 @@
-#/bin/sh
+#!/bin/bash
 
 set -e
 
 # Generate client certificates
 export ca_dir=./certs/demo.com
 export certs=/home/$USER/.docker
+rm -rf $certs
 mkdir -p $certs
 export tmp=`mktemp -d`
 trap "rm -rf $tmp" EXIT
